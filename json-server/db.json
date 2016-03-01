@@ -103,6 +103,12 @@
           "comment": "ok",
           "author": "ok",
           "date": "2016-03-01T05:47:19.024Z"
+        },
+        {
+          "rating": "2",
+          "comment": "Nice",
+          "author": "Name",
+          "date": "2016-03-01T07:09:48.637Z"
         }
       ]
     },
