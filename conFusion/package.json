@@ -22,7 +22,12 @@
     "cordova-plugin-statusbar",
     "ionic-plugin-keyboard"
   ],
+<<<<<<< HEAD
   "cordovaPlatforms": [
     "android"
   ]
 }
+=======
+  "cordovaPlatforms": []
+}
+>>>>>>> 65d4b7773de8c18568416dec36909d29e3a02b50

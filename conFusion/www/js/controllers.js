@@ -298,4 +298,8 @@ angular.module('conFusion.controllers', [])
         return out;
 
     }})
+<<<<<<< HEAD
 ;
+=======
+;
+>>>>>>> 65d4b7773de8c18568416dec36909d29e3a02b50

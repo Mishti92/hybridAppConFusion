@@ -2,7 +2,11 @@
 
 angular.module('conFusion.services', ['ngResource'])
 
+<<<<<<< HEAD
     .constant("baseURL","http://192.168.0.146:3000/")
+=======
+    .constant("baseURL","http://localhost:3000/")
+>>>>>>> 65d4b7773de8c18568416dec36909d29e3a02b50
 
 //MenuFactory returns dishes resource
     .factory('menuFactory', ['$resource', 'baseURL', function($resource,baseURL) {
@@ -28,18 +32,30 @@ angular.module('conFusion.services', ['ngResource'])
         return $resource(baseURL+"feedback/:id");
     }])
     
+<<<<<<< HEAD
 .factory('favoriteFactory', ['$resource', 'baseURL', '$localStorage', function ($resource, baseURL,$localStorage) {
         var favFac = {};
    var favorites = []; 
        //$localStorage.getObject('favorites');
+=======
+    .factory('favoriteFactory', ['$resource', 'baseURL', '$localStorage', function ($resource, baseURL,$localStorage) {
+        var favFac = {};
+        var favorites = $localStorage.getObject('favorites');
+>>>>>>> 65d4b7773de8c18568416dec36909d29e3a02b50
         favFac.addToFavorites = function (index) {
             for (var i = 0; i < favorites.length; i++)
             {
                 if (favorites[i].id == index)
                     return;
             }
+<<<<<<< HEAD
             favorites.push({id: index});
 //          $localStorage.storeObject('favorites',favorites);
+=======
+            favorites.push({
+                id: index
+            });        $localStorage.storeObject('favorites',favorites);
+>>>>>>> 65d4b7773de8c18568416dec36909d29e3a02b50
         };
         favFac.deleteFromFavorites = function (index) 
         {
@@ -47,7 +63,11 @@ angular.module('conFusion.services', ['ngResource'])
             {
                 if (favorites[i].id == index) {
                     favorites.splice(i, 1);
+<<<<<<< HEAD
 //                    $localStorage.storeObject('favorites', favorites);
+=======
+                $localStorage.storeObject('favorites', favorites);
+>>>>>>> 65d4b7773de8c18568416dec36909d29e3a02b50
                 }
             }
         }

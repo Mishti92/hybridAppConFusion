@@ -14,6 +14,7 @@
   <preference name="DisallowOverscroll" value="true"/>
   <preference name="android-minSdkVersion" value="16"/>
   <preference name="BackupWebStorage" value="none"/>
+<<<<<<< HEAD
   <preference name="SplashScreen" value="screen"/>
   <preference name="SplashScreenDelay" value="5000"/>
     <preference name="AutoHideSplashScreen" value="false" />
@@ -41,4 +42,9 @@
     <splash src="resources/android/splash/drawable-port-xxxhdpi-screen.png" density="port-xxxhdpi"/>
   </platform>
   <icon src="resources/android/icon/drawable-xhdpi-icon.png"/>
+=======
+  <feature name="StatusBar">
+    <param name="ios-package" value="CDVStatusBar" onload="true"/>
+  </feature>
+>>>>>>> 65d4b7773de8c18568416dec36909d29e3a02b50
 </widget>

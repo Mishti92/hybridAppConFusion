@@ -56,6 +56,7 @@
           "comment": "This is nice",
           "author": "SIta",
           "date": "2016-02-28T17:01:42.801Z"
+<<<<<<< HEAD
         },
         {
           "rating": "1",
@@ -68,6 +69,8 @@
           "comment": "123",
           "author": "Mansha",
           "date": "2016-03-12T07:24:40.003Z"
+=======
+>>>>>>> 65d4b7773de8c18568416dec36909d29e3a02b50
         }
       ]
     },
