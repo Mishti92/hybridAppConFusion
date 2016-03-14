@@ -6,7 +6,7 @@
       "image": "images/uthapizza.png",
       "category": "mains",
       "label": "Hot",
-      "price": 4.99,
+      "price": "4.99",
       "description": "A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.",
       "comments": [
         {
@@ -38,39 +38,6 @@
           "comment": "It's your birthday, we're gonna party!",
           "author": "25 Cent",
           "date": "2011-12-02T17:57:28.556094Z"
-        },
-        {
-          "rating": "2",
-          "comment": "Nice",
-          "author": "Mansha",
-          "date": "2016-02-28T15:29:21.711Z"
-        },
-        {
-          "rating": 5,
-          "comment": "",
-          "author": "",
-          "date": "2016-02-28T15:55:51.012Z"
-        },
-        {
-          "rating": "2",
-          "comment": "This is nice",
-          "author": "SIta",
-          "date": "2016-02-28T17:01:42.801Z"
-<<<<<<< HEAD
-        },
-        {
-          "rating": "1",
-          "comment": "Good",
-          "author": "New",
-          "date": "2016-03-09T12:12:44.704Z"
-        },
-        {
-          "rating": "2",
-          "comment": "123",
-          "author": "Mansha",
-          "date": "2016-03-12T07:24:40.003Z"
-=======
->>>>>>> 65d4b7773de8c18568416dec36909d29e3a02b50
         }
       ]
     },
@@ -80,7 +47,7 @@
       "image": "images/zucchipakoda.png",
       "category": "appetizer",
       "label": "",
-      "price": 1.99,
+      "price": "1.99",
       "description": "Deep fried Zucchini coated with mildly spiced Chickpea flour batter accompanied with a sweet-tangy tamarind sauce",
       "comments": [
         {
@@ -112,18 +79,6 @@
           "comment": "It's your birthday, we're gonna party!",
           "author": "25 Cent",
           "date": "2011-12-02T17:57:28.556094Z"
-        },
-        {
-          "rating": "3",
-          "comment": "ok",
-          "author": "ok",
-          "date": "2016-03-01T05:47:19.024Z"
-        },
-        {
-          "rating": "2",
-          "comment": "Nice",
-          "author": "Name",
-          "date": "2016-03-01T07:09:48.637Z"
         }
       ]
     },
@@ -174,7 +129,7 @@
       "image": "images/elaicheesecake.png",
       "category": "dessert",
       "label": "",
-      "price": 2.99,
+      "price": "2.99",
       "description": "A delectable, semi-sweet New York Style Cheese Cake, with Graham cracker crust and spiced with Indian cardamoms",
       "comments": [
         {
@@ -206,12 +161,6 @@
           "comment": "It's your birthday, we're gonna party!",
           "author": "25 Cent",
           "date": "2011-12-02T17:57:28.556094Z"
-        },
-        {
-          "rating": "1",
-          "comment": "Not good",
-          "author": "Ben",
-          "date": "2016-02-28T17:09:59.741Z"
         }
       ]
     }
